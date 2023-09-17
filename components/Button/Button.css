@@ -1,0 +1,31 @@
+.empty {
+  width: 300px;
+  height: 70px;
+  border-radius: 10px;
+  color: var(--Important);
+  transition: ease-in-out 300ms;
+}
+
+.empty:hover {
+  background-color: var(--Important-Hover);
+  color: var(--Background-White-1);
+
+  transition: ease-in-out 300ms;
+}
+
+.fill {
+  width: 300px;
+  height: 70px;
+  border-radius: 10px;
+
+  color: var(--Background-White-1);
+  background-color: var(--Important);
+  transition: ease-in-out 300ms;
+}
+
+.fill:hover {
+  background-color: var(--Important-Hover);
+  color: var(--Background-White-1);
+
+  transition: ease-in-out 300ms;
+}
